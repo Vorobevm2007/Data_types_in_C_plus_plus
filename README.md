@@ -18,4 +18,11 @@ See the detailed description on the website [metanit.com](https://metanit.com/cp
 | *short* | from -32768 to 32767 | 2 bytes (16 bits) | ```short num{ -88 };``` |
 | *unsigned short* | from 0 to 65535 | 2 bytes (16 bits) | ```unsigned short num{ 88 };``` |
 | *int* | from -32768 to 32767 | 2 bytes (16 bits) |  |
-|  | от −2 147 483 648 до 2 147 483 647 | 4 байта (32 бита) | ```int num{ -1024 };``` |
+|  | from -2 147 483 648 to 2 147 483 647 | 4 bytes (32 bits) | ```int num{ -1024 };``` |
+| *unsigned int* | from 0 to 65535 | 2 bytes (16 bits) |  |
+|  | from 0 to 4 294 967 295 | 4 bytes (32 bits) | ```unsigned int num{ 1024 };``` |
+| *long* |  from -2 147 483 648 to 2 147 483 647 | 4 bytes (32 bits) |  |
+|  | from -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807 | 8 bytes (64 bits) | ```long num{ -2048 };``` |
+| *unsigned long* | from 0 to 4 294 967 295 | 4 bytes (32 bits) | ```unsigned long num{ 2048 };``` |
+| *long long* | from -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807 | 8 bytes (64 bits) | ```long long num{ -4096 };``` |
+| *unsigned long long* | from 0 to 18 446 744 073 709 551 615 | 8 bytes (64 bits) | ```unsigned long long num{ 4096 };``` |
