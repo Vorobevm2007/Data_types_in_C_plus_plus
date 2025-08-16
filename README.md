@@ -35,9 +35,9 @@ See the detailed description on the website [metanit.com](https://metanit.com/cp
 
 | *Character types* | Range of values | Weight | Encoding | Initialization example |
 | ----------------- | --------------- | ------ | -------- | ---------------------- |
-| *char* | from -128 to 127, or from 0 to 255 | 1 byte (8 bits) | ASCII | ```char a {'A'};``` |
+| *char* | from -128 to 127, or from 0 to 255 | 1 byte (8 bits) | ASCII | ```char a { 'A' };``` |
 | *wchar_t* | from 0 to 65 535 (Windows) | 2 bytes (16 bits) | Unicode |  |
-|  | from 0 to 4 294 967 295 (Linux) | 4 bytes (32 bits) | Unicode | ```wchar_t a {L'A'};``` |
+|  | from 0 to 4 294 967 295 (Linux) | 4 bytes (32 bits) | Unicode | ```wchar_t a { L'A' };``` |
 | *char8_t* | from 0 to 256 | 1 byte (8 bits) | Unicode | ```char8_t c{ u8'l' };``` |
 | *char16_t* | from 0 to 65 535 | 2 bytes (16 bits) | Unicode | ```char16_t d{ u'l' };``` |
 | *char32_t* | from 0 to 4 294 967 295 | 4 bytes (32 bits) | Unicode | ```char32_t e{ U'o' };``` |
