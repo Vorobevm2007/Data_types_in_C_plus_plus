@@ -26,3 +26,12 @@ See the detailed description on the website [metanit.com](https://metanit.com/cp
 | *unsigned long* | from 0 to 4 294 967 295 | 4 bytes (32 bits) | ```unsigned long num{ 2048 };``` |
 | *long long* | from -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807 | 8 bytes (64 bits) | ```long long num{ -4096 };``` |
 | *unsigned long long* | from 0 to 18 446 744 073 709 551 615 | 8 bytes (64 bits) | ```unsigned long long num{ 4096 };``` |
+
+| *Floating point numbers* | Range of values | Weight | Initialization example |
+| ------------------------ | --------------- | ------ | ---------------------- |
+| *float* | +/- 3.4E-38 to 3.4E+38 | 4 bytes (32 bits) | ```float num{ 10.56f };``` |
+| *double* | +/- 1.7E-308 to 1.7E+308 | 8 bytes (64 bits) | ```double num {10.45};``` |
+| *long double* | From 3.36E–4932 to 3.16E+4932 | 16 bytes (128 bits) | ```double num2{ 1. };``` |
+
+| *Character types* | Range of values | Weight | Initialization example |
+| ----------------- | --------------- | ------ | ---------------------- |
