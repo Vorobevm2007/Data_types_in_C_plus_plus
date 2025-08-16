@@ -30,14 +30,14 @@ See the detailed description on the website [metanit.com](https://metanit.com/cp
 | *Floating point numbers* | Range of values | Weight | Initialization example |
 | ------------------------ | --------------- | ------ | ---------------------- |
 | *float* | from 3.4E-38 to 3.4E+38 | 4 bytes (32 bits) | ```float num{ 10.56f };``` |
-| *double* | from 1.7E-308 to 1.7E+308 | 8 bytes (64 bits) | ```double num {10.45};``` |
-| *long double* | from 3.36E–4932 to 3.16E+4932 | 16 bytes (128 bits) | ```double num2{ 1. };``` |
+| *double* | from 1.7E-308 to 1.7E+308 | 8 bytes (64 bits) | ```double num { 10.45 };``` |
+| *long double* | from 3.36E–4932 to 3.16E+4932 | 16 bytes (128 bits) | ```double num{ 1.32 };``` |
 
 | *Character types* | Range of values | Weight | Encoding | Initialization example |
 | ----------------- | --------------- | ------ | -------- | ---------------------- |
-| *char* | from -128 to 127, or from 0 to 255 | 1 byte (8 bits) | ASCII | ```char a1 {'A'};``` |
+| *char* | from -128 to 127, or from 0 to 255 | 1 byte (8 bits) | ASCII | ```char a {'A'};``` |
 | *wchar_t* | from 0 to 65 535 (Windows) | 2 bytes (16 bits) | Unicode |  |
-|  | from 0 to 4 294 967 295 (Linux) | 4 bytes (32 bits) | Unicode | ```wchar_t a1 {L'A'};``` |
+|  | from 0 to 4 294 967 295 (Linux) | 4 bytes (32 bits) | Unicode | ```wchar_t a {L'A'};``` |
 | *char8_t* | from 0 to 256 | 1 byte (8 bits) | Unicode | ```char8_t c{ u8'l' };``` |
 | *char16_t* | from 0 to 65 535 | 2 bytes (16 bits) | Unicode | ```char16_t d{ u'l' };``` |
 | *char32_t* | from 0 to 4 294 967 295 | 4 bytes (32 bits) | Unicode | ```char32_t e{ U'o' };``` |
@@ -45,3 +45,4 @@ See the detailed description on the website [metanit.com](https://metanit.com/cp
 | *The auto specifier* | Range of values | Weight | Encoding | Initialization example |
 | -------------------- | --------------- | ------ | -------- | ---------------------- |
 | *auto* | none | none | none | ```auto number = 5;``` |
+
